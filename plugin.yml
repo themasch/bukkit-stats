@@ -1,0 +1,5 @@
+name: stats
+
+main: it.masch.stats.stats
+
+version: 0.1
