@@ -1,0 +1,9 @@
+This Plugin needs the jdbc library to work. You can download it here: http://dev.mysql.com/downloads/connector/j/
+Store the mysql-connector-java-5.1.15-bin.jar as "lib/mysql.jar" in your craftbukkit folder.
+
+Additional you have to create a "stats.properties" file in your CraftBukkit folder. Here is a Example for the content: 
+#####
+url=jdbc:mysql://localhost/minecraft # jdbc url to the database (currently only mysql >4.1 is supported)
+user=USERNAME # username for the database
+password=PASS # password for the database   
+#####
